@@ -279,4 +279,62 @@ header{
     .nav-links{
         display: none;
     }
+
+    .buttons-log-sign{
+        display: none;
+    }
+
+    .logo{
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 432px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    
+    .hold-2{
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .image img{
+        height: 15rem;
+    }
+
+    .text .head-txt{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mid-txt{
+        text-align: center;
+        width: 100%;
+    }
+
+    .btn{
+        /* border: 1px solid black; */
+        margin: 0 auto;
+        /* flex-direction: column; */
+    }
+
+    .nav-links{
+        display: none;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .t2{
+        font-size: 3.5rem;
+    }
 }
